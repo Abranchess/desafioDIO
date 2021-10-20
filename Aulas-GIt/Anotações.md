@@ -34,4 +34,4 @@
 
 - git remote -v para ver o status do link
 
-- git push origin master - enviar o repositorio local para o remoto - necessita senha
+- git push origin (nomezinho azul) - enviar o repositorio local para o remoto - necessita senha
