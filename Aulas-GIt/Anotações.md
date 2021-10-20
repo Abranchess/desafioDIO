@@ -1,6 +1,6 @@
 # COMANDOS GIT :computer:
 
-- GITHUB = LS - listar
+- LS - listar
 
 - ​	cd - navegar
 
