@@ -1,6 +1,6 @@
 # COMANDOS GIT :computer:
 
-- GITHUB = LS - listar
+- LS - listar
 
 - ​	cd - navegar
 
@@ -30,8 +30,8 @@
 
 - git add = mandar da working directory para staging
 
-- git remote add origin - para linkar o repositorio remoto
+- git remote add origin - para enviar para remoto
 
 - git remote -v para ver o status do link
 
-- git push origin master - enviar o repositorio local para o remoto - necessita senha
+- git push origin (nomezinho azul) - enviar o repositorio local para o remoto 
