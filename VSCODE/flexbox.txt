@@ -1,0 +1,63 @@
+<STYLE>
+.Item - criar o item
+Chamando sempre com um PONTO
+flex - para se ultilizar quando preciso nas classes  
+container - pra fazer com que seja criada uma area onde sejam agrupadas os elementos filhos e respeite o tamanho proporcional ao conteúdo, respeitando a orientação em linha
+muitto comum que a gente ultilize no menu
+para que se adaptem as telas respeitando a proporcionalidade
+do disposittivo
+
+row (padrão) - direção na qual escreveremos o texto
+esq p dir
+
+row-reverse - oposto do roww
+LINHA
+
+column = ordenaação em coluna de cima pra baixo
+
+column-reverse:
+COLUNA
+
+
+
+
+wrap - permite a quebra de linha assim q um dos flex itens nao puder mais ser compactado
+nowrap - n permite
+wrap-reverse - permite a quebra porém no sentido contrário
+flex-flow - atalho menos usado
+
+PRINCIPAIS UTILIZADOS QUANDO SE TRATA DE FLEXBOX
+Justify Content - Propriedade encarregada de alinhar os itens dentro do container de acordo com a direção pretendido
+Caso os itens estejam ocupando 100% do container-n se aplica
+flex-start - inicio do container
+flex-end - final do container
+center - todos elementos ao centro do container
+space-between - cria um espaçamento igual entre os elementos
+space-around - espaçamentos do meio sao maiores que o final e o inicial
+
+
+
+ALING ITEMS 
+
+alinhamento dos FLEX de acordo com o eixo do container
+
+permite o alinhamento central no eixo vertical
+CENTRALIZAR ELEMENTO NO CENTRO DA TELA
+ele não precisa necessariamente ter conhecimento da altura dos conteiners
+N PRECISA APLICAR ALTURA NO CONTAINER ENQUANTO NO JUSTIFY PRECISAMOS DECLARAR 
+
+CENTER -centraliza
+STRETCH - padrão - cresce de acordo com o maior item
+flex-start - alinhamento dos itens no inicio
+flex-end-finaal
+baseline - cresce de acordo com a linha a base do texto 
+
+
+FLEX: - alinhar um item
+PARA CENTRALIZAR 
+        .centralizar .item{
+            flex: 0;
+            padding: 20px;
+        }
+
+

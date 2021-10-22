@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify content</title>
+<style>
+
+        .container{
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0;
+            display: flex;
+        }
+
+        .item{
+            background-color: cadetblue;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+            .flex-start{
+                justify-content: flex-start;
+            }
+
+            .flex-end{
+                justify-content: flex-end;
+            }
+
+            .center{
+                justify-content: center;
+            }
+
+            .space-between{
+                justify-content: space-between;
+            }
+
+            .space-around{
+                justify-content: space-around;
+            }
+
+            .column{
+                flex-direction: column;
+                min-height: 200px;
+            }
+
+
+</style>
+
+
+</head>
+<body>
+    <p>FLEX START</p>
+    <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+
+    </section>
+
+ <p>FLEX END</p>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+
+    </section>
+
+    <p>CENTER</p>
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+        <div class="item">item four</div>
+        <div class="item">item five</div>
+
+    </section>
+
+
+    <p>SPACE space-between</p>
+    <section class="container space-between">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+        <div class="item">item four</div>
+        <div class="item">item five</div>
+
+    </section>
+
+    <p>SPACE space-around</p>
+    <section class="container space-around">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+        <div class="item">item four</div>
+        <div class="item">item five</div>
+
+    </section>
+
+
+    <p>FLEX START Column</p>
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+
+    </section>
+
+    <p>FLEX END Column</p>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+
+    </section>
+
+    <p>FLEX center Column</p>
+    <section class="container center column">
+        <div class="item">1</div>
+        <div class="item">item dois</div>
+        <div class="item">item tres</div>
+
+    </section>
+
+</body>
+</html>
