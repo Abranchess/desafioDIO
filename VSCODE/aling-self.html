@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlingSelf</title>
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 1px solid;
+            margin-bottom: 10px;
+            display: flex;
+        }
+
+        .alignCont{
+            max-width: 350px;
+            border: 1px solid;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .item{
+            background-color: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+       }
+
+       .strech{
+           align-self: stretch;
+       }
+
+       .baseline{
+           align-self: baseline;
+       }
+
+       .auto{
+           align-self: auto;
+       }
+
+       .column{
+           flex-direction: column;
+       }
+    </style>
+</head>
+<body>
+    <p>aling-self AUTO/strech no AAA porém os itens ja ocupam todo o espaço, com o 4 com o valor de END e o 123 com valor de CENTER</p>
+    <section class="flex-container">
+        <div class="item strech">AAA</div>
+        <div class="item center">123</div>
+        <div class="item auto">lorem ipsum is therefore awals free form repterition</div>
+        <div class="item end">4</div>
+
+    </section>
+
+    <p>aling-self COM O CONTAINER DEFINIDO O ALIGN ITENS com stretch no AAA </p>
+    <section class="alignCont">
+        <div class="item strech">AAA</div>
+        <div class="item center">123</div>
+        <div class="item auto">lorem ipsum is therefore awals free form repterition</div>
+        <div class="item auto">4</div>
+
+    </section>
+
+    <p>aling-self COM O CONTAINER DEFINIDO O ALIGN ITENS com stretch no  AAA EM COLUNAS </p>
+    <section class="alignCont column">
+        <div class="item strech">AAA</div>
+        <div class="item center">123</div>
+        <div class="item auto">lorem ipsum is therefore awals free form repterition</div>
+        <div class="item auto">4</div>
+
+    </section>
+</body>
+</html>

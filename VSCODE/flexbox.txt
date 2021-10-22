@@ -61,3 +61,86 @@ PARA CENTRALIZAR
         }
 
 
+ALING-CONTENT 
+é a prioridade responsável por tratar o alinhamento
+ das linhas do container em relação ao eixo vertical
+ do container.
+
+-precisamos que o container utilize a quebra de linhas
+a altura do container seja maior que a soma das linhas
+dos itens  
+      FLEXWRAP
+
+center - alinhamento ao centro
+strech - padrão e os flex crescem igual
+flex-start - alinhamento ao inicio
+flex-end - alinhamento ao final
+space-between - cria um espaçamento igual entre os elementos
+space-around - os espaçamentos do meio sao maiores que o das bordas
+
+FLEX-GROW
+
+define a proporcionalidade de crescimento dos items
+respeitando o tamanha de seus conteudos internos
+N FUNCIONA CASO TENHAMOS ADICIONADO O JUSTIFY
+CONTENT ao nosso flex container
+
+
+FLEX-BASIS
+é a propriedade que estabelece o tamanho inicial do
+item antes das distribuições de espaço restantes dentro
+dele
+
+VALORES POSSIVEIS DO BASIS:
+auto: caso o item nao tenha tamanho, será proporcional
+ao conteúdo do item
+
+px,%, ..: são valores exatos, previamente definidos
+
+0: terá relação com o flexgrow
+
+TERÁ MUITA RELAÇÃO COM FLEXGROW
+
+
+Flex-Shrink
+PROPRIEDADE QUE ESTABELECE A CAPACIDADE DE REDUÇÃO 
+OU COMPRESSAO DO TAMANHO DE UM ITEM
+(inverso do basis)
+faz de modo que o conteudo caiba dentro do container
+as vezes com o basis o elemento sai, mas tenta ficar
+centralizado no container
+
+FLEX-ATALHO DO GROWw SHRINK E BASIS - simplesmente um atalho para definir os valores
+definindo os 3 juntos
+EXEMPLO: 
+.flex{
+	flex: 1;
+	o flex grow será 1
+	o flex shrink será 1
+	o flex basis será 0
+}
+
+
+ORDER - Ordenação dos itens
+para criar forma de ordenar, seguindo a ordem do codigo
+
+
+ALING-SELF
+estabelece o alinhamento individual sobre um determinado
+item
+trabalhar o item individualmente
+os valores possíveis são:
+AUTO: Padrão, irá respeitar a definição do aling-items
+START:
+END:
+CENTER:relativo ao centro do acordo com o eixo
+Strech:ocupa todo o espaço relativo
+Baseline:
+
+Se for definido o aling no container ele respeita o container
+
+
+
+
+
+
